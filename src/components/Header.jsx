@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import Image from "../assets/222.jpg";
+import Image from "../../public/222.jpg";
 import { IoIosArrowDown } from "react-icons/io";
 
 const Header = () => {

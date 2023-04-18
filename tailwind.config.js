@@ -4,10 +4,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        coal: "url('./src/assets/coal.jpg')",
-        coaltower: "url('./src/assets/coaltower.jpg')",
-        mixer: "url('./src/assets/mixer.jpg')",
-        cinema: "url('./src/assets/cinema.jpg')",
+        coal: "url('./public/coal.jpg')",
+        coaltower: "url('./public/coaltower.jpg')",
+        mixer: "url('./public/mixer.jpg')",
+        cinema: "url('./public/cinema.jpg')",
       },
     },
   },
