@@ -1,0 +1,116 @@
+$vignette: rgb(19, 19, 19);
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: $vignette;
+  border-radius: 5px;
+  width: 95%;
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  button {
+    all: initial;
+    font-family: "Public Sans", sans-serif;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+    background-color: $vignette;
+    margin-top: 10px;
+  }
+}
+
+.me-presentation {
+  display: flex;
+  width: 95%;
+  background-color: $vignette;
+  border-radius: 5px;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+.presentation {
+  font-size: 4vw;
+  text-align: justify;
+  margin: 5px 10px;
+}
+
+.me {
+  width: 40%;
+  border: solid 0px black;
+  filter: grayscale(100);
+}
+
+.skills {
+  background-color: $vignette;
+  border-radius: 10px;
+  width: 95%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  background-color: $vignette;
+  border-radius: 10px;
+  width: 95%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  width: 90px;
+  margin: 5px;
+}
+
+.prj {
+  border-radius: 50%;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prj-name {
+  text-align: center;
+}
+
+.projet1 {
+  background-image: url("Agecalculator.png");
+  background-position: center;
+  background-size: cover;
+}
+.projet2 {
+  background-image: url("RPS.png");
+  background-position: top;
+  background-size: cover;
+}
+.projet3 {
+  background-image: url("Todolist.png");
+  background-position: left;
+  background-size: cover;
+}
+.projet4 {
+  background-image: url("Cogip.png");
+  background-position: top;
+  background-size: cover;
+}
+.projet5 {
+  background-image: url("MovieBrowser.png");
+  background-position: top;
+  background-size: cover;
+}
