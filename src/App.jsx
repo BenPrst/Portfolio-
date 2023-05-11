@@ -10,8 +10,6 @@ import Gallery from "./components/Gallery";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-
 function App() {
   return (
     <div className="h-screen">
